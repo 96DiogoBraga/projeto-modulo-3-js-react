@@ -1,0 +1,54 @@
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    width: 100%;
+
+}
+
+.primeiro{
+    margin-right: 1em;
+    width: 100%;  
+}
+
+.segundo{
+    width: 100%;  
+}
+
+.email{
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.senha{
+    margin-bottom: 1em;
+    width: 100%;
+}
+.checkbox{
+    width: 70%;
+    margin-bottom: 1em;
+}
+.button{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.link{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#link-button{
+    text-transform: none;
+    text-decoration: underline;
+}
